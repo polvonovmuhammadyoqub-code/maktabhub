@@ -1,0 +1,344 @@
+{
+  "users": [
+    {
+      "id": "usr-st-702",
+      "fullName": "Azizbek Rahimov",
+      "role": "STUDENT",
+      "schoolName": "Prezident ixtisoslashtirilgan 1-maktabi",
+      "className": "7-\"B\" sinf",
+      "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&q=80",
+      "coins": 380,
+      "xp": 1450,
+      "level": 4,
+      "rank": 3,
+      "streakDays": 5,
+      "loginId": "7B-2401",
+      "password": "password"
+    },
+    {
+      "id": "usr-adm-01",
+      "fullName": "Rustam Karimov (Admin)",
+      "role": "ADMIN",
+      "schoolName": "Prezident ixtisoslashtirilgan 1-maktabi",
+      "className": "Maktab Ma’muriyati",
+      "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&q=80",
+      "coins": 9999,
+      "xp": 5000,
+      "level": 10,
+      "rank": 1,
+      "streakDays": 30,
+      "loginId": "admin",
+      "password": "admin"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "les-01",
+      "title": "Python dasturlash: Tarmoqlanuvchi shart operatorlari (if/else)",
+      "subject": "Informatika",
+      "teacherName": "Sardor Qodirov",
+      "date": "28-Oktyabr, 2026",
+      "fileType": "pptx",
+      "fileSize": "4.8 MB",
+      "description": "Python tilida if, elif va else bloklarining ishlash mexanizmi, mantiqiy amallar va amaliy misollar taqdimoti."
+    },
+    {
+      "id": "les-03",
+      "title": "Nyutonning ikkinchi qonuni va dinamika asoslari",
+      "subject": "Fizika",
+      "teacherName": "Ulug‘bek Salimov",
+      "date": "25-Oktyabr, 2026",
+      "fileType": "pdf",
+      "fileSize": "3.1 MB",
+      "description": "Kuch, massa va tezlanish bog‘liqligi. Laboratoriya mashg‘uloti uchun ko‘rsatmalar to‘plami."
+    },
+    {
+      "id": "les-04",
+      "title": "Alisher Navoiy hayoti va \"Xamsa\" dostonlari tahlili",
+      "subject": "Adabiyot",
+      "teacherName": "Dilnoza Yusupova",
+      "date": "23-Oktyabr, 2026",
+      "fileType": "pptx",
+      "fileSize": "6.5 MB",
+      "description": "Navoiy dostonlaridagi ma’rifiy g‘oyalar va qahramonlar xarakteristikasi bo‘yicha ko‘rgazmali slaydlar."
+    }
+  ],
+  "rewards": [
+    {
+      "id": "rew-03",
+      "title": "Maktab logotipli maxsus IT-bloknot va ruchka",
+      "category": "physical",
+      "price": 160,
+      "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=300&q=80",
+      "description": "Qattiq muqovali, qulay va chiroyli maktab kundaligi va maxsus qora ruchka to‘plami.",
+      "stock": 14,
+      "isPopular": true
+    },
+    {
+      "id": "rew-04",
+      "title": "Darsda 1 martalik \"Immunitet Kuponi\"",
+      "category": "privilege",
+      "price": 300,
+      "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=300&q=80",
+      "description": "Ixtiyoriy bitta darsda kutilmagan doskaga chiqishdan himoyalanish rasmiy imtiyozi (o‘qituvchi bilan kelishilgan).",
+      "stock": 5
+    },
+    {
+      "id": "rew-05",
+      "title": "Tanaffus vaqtida maktab radiosida qo‘shiq tanlash huquqi",
+      "category": "privilege",
+      "price": 220,
+      "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=300&q=80",
+      "description": "Katta tanaffusda maktab radiotarmog‘i orqali sevimli musiqangizni barcha uchun qo‘ydirish imkoniyati.",
+      "stock": 8
+    },
+    {
+      "id": "rew-06",
+      "title": "Maktab ramzi tushirilgan metall termos",
+      "category": "physical",
+      "price": 450,
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=300&q=80",
+      "description": "Issiq va sovuqni 12 soat saqlaydigan qulay va zamonaviy o‘quvchi termosi.",
+      "stock": 3
+    }
+  ],
+  "homeworks": [
+    {
+      "id": "hw-01",
+      "title": "Python: Juft va toq sonlarni aniqlaydigan 3 ta algoritm yozish",
+      "subject": "Informatika",
+      "teacherName": "Sardor Qodirov",
+      "dueDate": "Bugun, 23:59 gacha",
+      "dueTime": "23:59",
+      "maxCoins": 25,
+      "maxXP": 50,
+      "status": "new",
+      "description": "Konspektda berilgan 2, 4 va 5-amaliy masalalarni Python kodida yozing. Kod skrinshotini yoki .py faylni yuklang."
+    },
+    {
+      "id": "hw-02",
+      "title": "Darslikdan 142–146-misollarni yechish (Viyet teoremasi)",
+      "subject": "Algebra",
+      "teacherName": "Nodira Karimova",
+      "dueDate": "Ertaga, 17:00 gacha",
+      "dueTime": "17:00",
+      "maxCoins": 30,
+      "maxXP": 60,
+      "status": "new",
+      "description": "Misollarni katak daftarga aniq yechib, suratga oling yoki toza PDF ko‘rinishida yuklang."
+    },
+    {
+      "id": "hw-03",
+      "title": "Nyuton qonunlariga doir 5 ta masala hisob-kitobi",
+      "subject": "Fizika",
+      "teacherName": "Ulug‘bek Salimov",
+      "dueDate": "27-Oktyabr",
+      "dueTime": "18:00",
+      "maxCoins": 20,
+      "maxXP": 45,
+      "status": "under_review",
+      "description": "Laboratoriya daftarchasidagi 3-variant topshiriqlari.",
+      "studentAnswer": "Vazifa bajarildi, barcha 5 ta masalaning hisobi yuklandi."
+    },
+    {
+      "id": "hw-04",
+      "title": "\"Farhod va Shirin\" dostonidan 20 misra yod olish va audio yuborish",
+      "subject": "Adabiyot",
+      "teacherName": "Dilnoza Yusupova",
+      "dueDate": "24-Oktyabr",
+      "dueTime": "16:00",
+      "maxCoins": 40,
+      "maxXP": 80,
+      "status": "graded",
+      "description": "Ifodali o‘qish va ovozli xabar qilib yuborish.",
+      "teacherComment": "Barakalla, Azizbek! Talaffuz va intonatsiya a’lo darajada! +40 tanga hisobingizga qo‘shildi.",
+      "earnedCoins": 40,
+      "earnedXP": 80,
+      "studentAnswer": "Audio yozuv yuklandi."
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx-01",
+      "userId": "usr-st-702",
+      "amount": 40,
+      "type": "ASSIGNMENT",
+      "description": "\"Farhod va Shirin\" dostonidan 20 misra yod olish topshirig‘i uchun mukofot",
+      "createdAt": "2026-10-24T10:30:00Z"
+    },
+    {
+      "id": "tx-02",
+      "userId": "usr-st-702",
+      "amount": 25,
+      "type": "QUIZ",
+      "description": "Informatika fani bo‘yicha Quiz Arena g‘olibi",
+      "createdAt": "2026-10-26T14:15:00Z"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "q-01",
+      "subject": "Informatika",
+      "title": "Pythonda konsolga ma’lumot chiqarish uchun qaysi standart funksiya ishlatiladi?",
+      "timeLimit": 15,
+      "points": 800,
+      "coinsReward": 20,
+      "options": [
+        {
+          "id": 1,
+          "text": "console.log()",
+          "isRight": false
+        },
+        {
+          "id": 2,
+          "text": "print()",
+          "isRight": true
+        },
+        {
+          "id": 3,
+          "text": "echo()",
+          "isRight": false
+        },
+        {
+          "id": 4,
+          "text": "System.out.println()",
+          "isRight": false
+        }
+      ],
+      "explanation": "Python tilida matn yoki natijani ekranga chiqarish uchun print() funksiyasi qo‘llaniladi.",
+      "createdAt": "2026-10-28T09:00:00Z"
+    },
+    {
+      "id": "q-02",
+      "subject": "Algebra",
+      "title": "Kvadrat tenglamada diskriminant (D) hisoblash formulasi qaysi?",
+      "timeLimit": 20,
+      "points": 900,
+      "coinsReward": 25,
+      "options": [
+        {
+          "id": 1,
+          "text": "D = b² - 4ac",
+          "isRight": true
+        },
+        {
+          "id": 2,
+          "text": "D = b² + 4ac",
+          "isRight": false
+        },
+        {
+          "id": 3,
+          "text": "D = a² + b² - c²",
+          "isRight": false
+        },
+        {
+          "id": 4,
+          "text": "D = -b ± √(4ac)",
+          "isRight": false
+        }
+      ],
+      "explanation": "ax² + bx + c = 0 kvadrat tenglamasi diskriminanti D = b² - 4ac ga teng.",
+      "createdAt": "2026-10-28T09:10:00Z"
+    },
+    {
+      "id": "q-03",
+      "subject": "Fizika",
+      "title": "Nyutonning ikkinchi qonuni ifodasini aniqlang:",
+      "timeLimit": 15,
+      "points": 850,
+      "coinsReward": 20,
+      "options": [
+        {
+          "id": 1,
+          "text": "F = m / a",
+          "isRight": false
+        },
+        {
+          "id": 2,
+          "text": "F = m · a",
+          "isRight": true
+        },
+        {
+          "id": 3,
+          "text": "E = m · c²",
+          "isRight": false
+        },
+        {
+          "id": 4,
+          "text": "v = s / t",
+          "isRight": false
+        }
+      ],
+      "explanation": "Jismga ta’sir qiluvchi kuch uning massasi bilan tezlanishining ko‘paytmasiga teng: F = m·a.",
+      "createdAt": "2026-10-28T09:20:00Z"
+    }
+  ],
+  "schedules": [
+    {
+      "id": "sch-01",
+      "lessonNumber": 1,
+      "subject": "Informatika",
+      "time": "08:30 - 09:15",
+      "room": "304-kompyuter sinfi",
+      "teacherName": "Sardor Qodirov",
+      "status": "completed",
+      "topic": "Python dasturlash: Shart operatorlari",
+      "hasHomework": true
+    },
+    {
+      "id": "sch-02",
+      "lessonNumber": 2,
+      "subject": "Algebra",
+      "time": "09:25 - 10:10",
+      "room": "208-xona",
+      "teacherName": "Nodira Karimova",
+      "status": "completed",
+      "topic": "Kvadrat tenglamalar va Viyet teoremasi",
+      "hasHomework": true
+    },
+    {
+      "id": "sch-03",
+      "lessonNumber": 3,
+      "subject": "Fizika",
+      "time": "10:25 - 11:10",
+      "room": "112-laboratoriya",
+      "teacherName": "Ulug‘bek Salimov",
+      "status": "current",
+      "topic": "Nyutonning ikkinchi qonuni va dinamika",
+      "hasHomework": false
+    },
+    {
+      "id": "sch-04",
+      "lessonNumber": 4,
+      "subject": "Ingliz tili",
+      "time": "11:20 - 12:05",
+      "room": "205-til markazi",
+      "teacherName": "Malika Ahmedova",
+      "status": "upcoming",
+      "topic": "Unit 4: Future Technology & AI Tools",
+      "hasHomework": false
+    },
+    {
+      "id": "sch-05",
+      "lessonNumber": 5,
+      "subject": "Adabiyot",
+      "time": "12:25 - 13:10",
+      "room": "315-xona",
+      "teacherName": "Dilnoza Yusupova",
+      "status": "upcoming",
+      "topic": "Alisher Navoiy: Hayoti va \"Xamsa\" dostoni",
+      "hasHomework": true
+    },
+    {
+      "id": "sch-06",
+      "lessonNumber": 6,
+      "subject": "Biologiya",
+      "time": "13:20 - 14:05",
+      "room": "110-biologiya xonasi",
+      "teacherName": "Jasur Umarov",
+      "status": "upcoming",
+      "topic": "Hujayra tuzilishi va mikroskop amaliyoti",
+      "hasHomework": false
+    }
+  ]
+}
